@@ -1,6 +1,6 @@
 FROM centos:latest
 
-RUN dnf -y install bind-utils telnet vim nfs-utils sudo openssh
+RUN dnf -y install bind-utils telnet vim nfs-utils sudo openssh openssh-clients
 
 RUN echo $'#!/bin/bash\n\
 while true; do sleep 1d; done\n'\

@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM quay.io/centos/centos:latest
 
 RUN dnf -y install bind-utils telnet vim nfs-utils sudo openssh openssh-clients postgresql
 
